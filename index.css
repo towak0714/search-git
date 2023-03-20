@@ -1,0 +1,104 @@
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+.text {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.input {
+  padding: 8px;
+  margin: 8px;
+  outline: none;
+  width: 170px;
+}
+
+
+.search__card {
+  box-shadow: 1px 1px 3px 1px rgb(0 0 255 / 60%);
+  border-radius: 10px;
+  border-radius: 10px;
+  width: 174px;
+  height: auto;
+  padding: 10px;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.input_error_active {
+  font-size: 14px;
+  color: red;
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+.button {
+  background-color: darkgrey;
+  cursor: default;
+  color: #f1f5f8;
+  border: none;
+  padding: 8px;
+  width: 100px;
+}
+
+.button_active {
+  background-color: green;
+  cursor: pointer;
+}
+
+.input_type_error {
+  border: 1px solid red;
+}
+
+
+.no-search {
+  color: red;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.form {
+  position: relative;
+}
+
+.search__link {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 24px;
+  color: green;
+  word-wrap: break-word
+}
+
+.search__link:hover {
+  opacity: .7;
+}
+
+.text2 {
+  font-weight: normal;
+  word-wrap: break-word
+}
